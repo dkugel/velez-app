@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+body{
+    font-family: 'roboto' !important;    
+}
+.page{
+    background: url('../images/banner-servicion1.jpg') !important;
+    background-size: cover !important;    
+}
+.page-content {
+    padding-top: 80px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar {    
+    height: 74px !important;
+    background-color:  #e8eae9 !important;
+}
+.title {
+    padding: 10px 0;
+}
+.md .navbar + .toolbar:not(.toolbar-bottom-md):not(.messagebar) {
+    top: 74px;
+}
+.intro{
+    font-size: 1.8em;
+    padding-top: 20%;
+    line-height: 25px;    
+}
+.sub-seccion{
+    padding: 20px;    
+    background: rgba(255,255,255,0.6);
+}
+h2{
+    font-size: 1.3em;
+    line-height: 10px;
+}
+.yellow-line{
+    border-bottom: 2px solid #f5d966;
+    padding-top: 10px;    
+}

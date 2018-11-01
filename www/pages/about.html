@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Velez Caicedo App</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="css/framework7-icons.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title"><img src="images/logo.png"></div>
+            </div>
+          </div>
+
+          <!-- Toolbar -->
+          <div class="toolbar">
+            <div class="toolbar-inner">
+              <!-- Toolbar links -->
+              <a href="/" class="link"><i class="f7-icons">home</i></a>
+              <a href="#" class="link"><i class="f7-icons">images_fill</i></a>
+              <a href="/about/" class="link"><i class="f7-icons">persons</i></a>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+              <div class="intro"></div>
+              <div class="sub-seccion">
+              <h2>13 años de experiencia</h2>
+              <p>Somos una agencia pequeña, que por más de 13 años se ha desempeñado 
+              en un nicho donde trabajamos en conjunto con nuestros colegas grandes, 
+              pero cubriendo un espacio que estos no suelen manejar: trabajos de alta 
+              urgencia, alta complejidad en estructuras de información, solicitudes 
+              muy específicas, personalizadas, todo con tiempos de entrega muy limitados.
+              Nuestros tiempos de repuesta y la calidad de nuestro trabajo ha hecho que 
+              grandes compañías nos entreguen la responsabilidad del manejo de sus marcas.</p>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
